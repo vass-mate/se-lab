@@ -14,7 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  Random generator = new Random();
+  Random generator = new Random(); // Azért itt hozzuk létre, mivel ha idő alapján generálja a seedet akkor minden fuction hivásnál kiszámítható lenne
 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
